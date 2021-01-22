@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "28572127491",
+    "firebase_url": "https://mayi-f151f-default-rtdb.firebaseio.com",
+    "project_id": "mayi-f151f",
+    "storage_bucket": "mayi-f151f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28572127491:android:3b1b2a34fcd93340aa1936",
+        "android_client_info": {
+          "package_name": "com.mayi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28572127491-lpk1nr8pph3gfnoj4bv96n0o6nr4vrs0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mayi",
+            "certificate_hash": "dd058981edb13deb3bd6aaeb6ba4ccdc621d6bfd"
+          }
+        },
+        {
+          "client_id": "28572127491-1hjnh4f4aj477bl1okt5jn6q21j6reu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh-SaVPWhRPAT03YW4t37xTUFDP8tAUbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28572127491-1hjnh4f4aj477bl1okt5jn6q21j6reu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

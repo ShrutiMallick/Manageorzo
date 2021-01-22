@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:layout_marginBottom="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginTop="10dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:cardBackgroundColor="@color/dark_blue"
+      app:cardCornerRadius="5dp"
+      app:cardElevation="10dp"
+      >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginStart="70dp"
+        android:gravity="start|center_vertical"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:id="@+id/council_team_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:text="TeamName"
+          android:textColor="@color/white"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          />
+
+      <TextView
+          android:id="@+id/council_team_desc"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Team Details"
+          android:textColor="@color/grey"
+          android:textSize="15sp"
+          />
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:id="@+id/council_team_image"
+      android:layout_width="70dp"
+      android:layout_height="70dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="15dp"
+      android:elevation="20dp"
+      android:src="@drawable/image_profile_pic"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
